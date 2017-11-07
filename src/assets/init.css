@@ -1,0 +1,82 @@
+
+img{
+  display: block;
+}
+
+
+/* 主导航样式初始化 */
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu {
+  border-bottom: none;
+}
+
+.ivu-menu-horizontal .ivu-menu-item, .ivu-menu-horizontal .ivu-menu-submenu {
+  transition: none;
+}
+
+.ivu-menu-horizontal.ivu-menu-light::after {
+  display: none;
+}
+
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu-active, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover {
+  border-bottom: none;
+}
+
+.ivu-menu-vertical.ivu-menu-light::after {
+  display: none;
+}
+
+.ivu-menu.ivu-menu-light.ivu-menu-vertical {
+  width: 100%;
+}
+
+.ivu-menu-vertical .ivu-menu-item, .ivu-menu-vertical .ivu-menu-submenu-title {
+  transition: none;
+}
+
+.ivu-menu-vertical .ivu-menu-item:hover, .ivu-menu-vertical .ivu-menu-submenu-title:hover {
+  background: none;
+}
+
+/* 侧边栏样式初始化 */
+.ivu-menu.ivu-menu-light.ivu-menu-vertical {
+  width: 170px !important;
+  text-align: center;
+  padding-top: 14px;
+}
+
+.ivu-menu.ivu-menu-light.ivu-menu-vertical .ivu-menu-item {
+  padding: 0;
+  height: 35px;
+  font-size: 14px;
+  color: #B6B6B6;
+  line-height: 35px;
+}
+
+.ivu-menu-item.ivu-menu-item-active.ivu-menu-item-selected {
+  font-size: 16px;
+  color: #3C91AE;
+  border-right: 0;
+}
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu){
+  color: #3C91AE !important;
+  border-right: 0;
+  font-weight: 600;
+}
+
+/* 面包屑样式 */
+.breadcrumb{
+  height: 55px;
+  line-height: 55px;
+  padding-left: 50px;
+}
+
+.breadcrumb .ivu-breadcrumb span{
+  font-size: 12px;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.breadcrumb .ivu-breadcrumb span a.ivu-breadcrumb-item-link{
+  color: #89DAF5;
+  font-weight: 600;
+}
