@@ -1,6 +1,6 @@
 # washing
 
-> 共享洗衣
+> 洗衣项目
 
 ## Build Setup
 
